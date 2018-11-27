@@ -17,15 +17,14 @@ h1, h2, h3 {
 
 img {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 10%;
     padding: 20px;
 }
 
 #EcranJeu {
     position: relative;
     float: left;
-    width: 70%;
+    width: 80%;
     height: 100%;
     background-color: black;
     color: white;
@@ -34,71 +33,41 @@ img {
 #EcranFinDePartie {
     position: relative;
     float: right;
-    width: 30%;
+    width: 20%;
     height: 100%;
     background-color: #005cbf;
 }
 
 #Premier {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
 #Seconde {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 13%;
 }
 
 #Troisieme {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 13%;
 }
 
 #Quatrieme {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 13%;
 }
 
-/*#Img0, #Img5 {
-    left: 5%;
+#Timer {
+    position: relative;
+    top: 400px;
+    font-size: 40px;
+    left: 50px;
 }
-
-#Img1, #Img6, #Image2, #Image5 {
-    left: 25%;
-}
-
-#Img2, #Img7, #Image3, #Image6 {
-    left: 45%;
-}
-
-#Img3, #Image0, #Image4, #Image7 {
-    left: 65%;
-}
-
-#Img4, #Image1 {
-    left: 85%
-}
-
-#Img0x, #Img1, #Img2, #Img3, #Img4 {
-    top: 10%;
-}
-
-#Img5, #Img6, #Img7, #Image0, #Image1 {
-    top: 30%
-}
-
-#Image2, #Image3, #Image4 {
-    top: 50%;
-}
-
-#Image5, #Image6, #Image7 {
-    top: 70%;
-}
-*/

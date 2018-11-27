@@ -1,62 +1,123 @@
-let Tableau1 = [
-    "Icons/404.png",
-    "Icons/antenna.png",
-    "Icons/download.png",
-    "Icons/folder.png",
-    "Icons/network.png",
-    "Icons/server.png",
-    "Icons/setting.png",
-    "Icons/wireless.png"
-];
+let cartes1;
 
-let TableauV = [];
+let cartesId1;
 
-let Tableau2 = Tableau1;
+let cartes2;
 
-function Tableeaau1() {
+let cartesId2;
 
-    for (let i = 0; i < Tableau1.length; i++) {
+let click = 0;
 
-        let y = Math.floor(Math.random() * Tableau1.length);
+let Tab = function (array) {
 
-        document.getElementById("Img" + i).innerHTML += '<img src="' + Tableau1[y] + '">';
-        reprise:
+    let IndexCourant = array.length;
 
-            for (let a = 0; a < TableauV.length; a++) {
+    let ValeurTemporaire, IndexAleatoire;
 
-                if (Tableau1[y] === TableauV[i]) {
+    while (0 != IndexCourant) {
 
-                    //Si carte identique
-                    break reprise;
+        IndexAleatoire = Math.floor(Math.random() * IndexCourant);
 
-                } else {
+        IndexCourant -= 1;
 
-                    TableauV.push(y);
+        ValeurTemporaire = array[IndexCourant];
 
-                    alert(y);
+        array[IndexCourant] = array[IndexAleatoire];
 
-                }
-
-            }
-        /*
-
-
-
-        if (y ===Tableau1.indexOf(i)) {
-
-            document.getElementById("Img" + i).innerHTML = "";
-
-        }*/
+        array[IndexAleatoire] = ValeurTemporaire;
 
     }
 
+    return array;
 
+};
+
+let Img =
+
+    ["Icons/404.png", "Icons/antenna.png", "Icons/download.png",
+
+        "Icons/folder.png", "Icons/network.png", "Icons/server.png",
+
+        "Icons/setting.png", "Icons/wireless.png", "Icons/404.png",
+
+        "Icons/antenna.png", "Icons/download.png", "Icons/folder.png",
+
+        "Icons/network.png", "Icons/server.png", "Icons/setting.png",
+
+        "Icons/wireless.png"];
+
+Tab(Img);
+
+let ImageTableau = Tab(Img.slice());
+
+for (let i = 0; i < Img.length; i++) {
+
+    document.getElementById('Img' + i).addEventListener("click",
+
+        function Clique() {
+
+            if (click == 0) {
+
+                document.getElementById("Img" + i).innerHTML = "<img src='" + Img[i] + "'>";
+
+                cartes1 = Img[i];
+
+                cartesId1 = "Img" + i;
+
+                click++;
+
+            } else {
+
+                if (click < 2) {
+
+                    document.getElementById("Img" + i).innerHTML = "<img src='" + Img[i] + "'>";
+
+                    cartes2 = Img[i];
+
+                    cartesId2 = "Img" + i;
+
+                    click++;
+
+                    if (cartes1 == cartes2) {
+
+                        if (cartesId1 != cartesId2) {
+
+                            console.log("cartesidentiques");
+
+                            document.getElementById(cartesId1).style.visibility = "hidden";
+
+                            document.getElementById(cartesId2).style.visibility = "hidden";
+
+                            click = 0;
+
+                            cartes1 = null;
+
+                            cartes2 = null;
+
+                        }
+
+                    } else {
+
+                        setTimeout(function () {
+
+                                console.log("cartesdifferentes");
+
+                                document.getElementById(cartesId1).innerHTML = "<img src =" + 'FondCarte.png' + ">";
+
+                                document.getElementById(cartesId2).innerHTML = "<img src =" + 'FondCarte.png' + ">";
+
+                                click = 0;
+
+                                cartes1 = null;
+
+                                cartes2 = null;
+
+                            }, 500
+                        );
+                    }
+                }
+            }
+        }
+    );
 }
 
-Tableeaau1();
-/*
-for (let i = 0; i < Tableau2.length; i++) {
-
-    document.getElementById("Image" + i).innerHTML = '<img src="' + Tableau2[i] + '">';
-
-}*/
