@@ -8,6 +8,19 @@ let cartesId2;
 
 let click = 0;
 
+let paires = 0;
+
+let tentatives = 0;
+
+// Liste : Ce qui me reste à faire!
+
+// Faire le bouton démarrer pour faire apparaitre le jeu et demarre le chrono / popup
+
+// Faire bouton Reset
+
+
+document.getElementById("EcranFinDePartie").style.visibility = "hidden";
+
 let Tab = function (array) {
 
     let IndexCourant = array.length;
@@ -48,6 +61,8 @@ let Img =
 
 Tab(Img);
 
+console.log(Img);
+
 let ImageTableau = Tab(Img.slice());
 
 for (let i = 0; i < Img.length; i++) {
@@ -55,6 +70,8 @@ for (let i = 0; i < Img.length; i++) {
     document.getElementById('Img' + i).addEventListener("click",
 
         function Clique() {
+
+            tentatives++;
 
             if (click == 0) {
 
@@ -94,6 +111,20 @@ for (let i = 0; i < Img.length; i++) {
 
                             cartes2 = null;
 
+                            paires++;
+
+                            console.log(paires);
+
+                        } else {
+
+                            console.log("Vous avez double cliquez");
+
+                            document.getElementById(cartesId1).innerHTML = "<img src =" + 'FondCarte.png' + ">";
+
+                            document.getElementById(cartesId2).innerHTML = "<img src =" + 'FondCarte.png' + ">";
+
+                            click = 0;
+
                         }
 
                     } else {
@@ -115,9 +146,88 @@ for (let i = 0; i < Img.length; i++) {
                             }, 500
                         );
                     }
+
+                    if (paires == 8) {
+
+                        document.getElementById("EcranJeu").style.visibility = "hidden";
+
+                        document.getElementById("Resultats").innerHTML = "Bravo !! Victoire !!";
+
+                        document.getElementById("EcranFinDePartie").style.visibility = "visible";
+
+                        document.getElementById("ResteTemps").innerHTML = "Il vous as fallu : " + minutes + " minutes et " + secondes + " secondes";
+
+                        document.getElementById("NbrPaires").innerHTML = "Vous avez trouvez " + paires + " paires au total";
+
+                        document.getElementById("NbrDeTentatives").innerHTML = "Vous avez réussi en " + tentatives + " tentatives";
+
+                    }
                 }
             }
         }
     );
 }
+
+
+let minutes = "00";
+
+let secondes = "00";
+
+function Timer() {
+
+    document.getElementById("Temps").innerHTML = minutes + ":" + secondes;
+
+    secondes++;
+
+    console.log(secondes);
+
+    let Times = setTimeout(Timer, 1000);
+
+
+    // Fonction Chrono ++
+
+    if (secondes == 60) {
+
+        minutes++;
+        secondes = "00";
+
+    }
+
+}
+
+/* fonction --;
+
+let minutes = "00";
+
+let secondes = "10";
+
+function Timer() {
+
+    document.getElementById("Temps").innerHTML = minutes + ":" + secondes;
+    secondes--;
+    console.log(secondes);
+    let Times = setTimeout(Timer, 1000);
+
+    if (secondes < 0 ) {
+
+        minutes--;
+        secondes = 59;
+
+    }
+
+    if (secondes == 0 && minutes == 0) {
+
+        minutes = 0;
+        secondes= 0;
+        clearTimeout(Times);
+
+    }
+
+}
+
+*/
+
+Timer();
+
+
 

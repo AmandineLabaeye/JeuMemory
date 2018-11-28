@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+
+
 }
 
 body, html {
@@ -8,7 +10,9 @@ body, html {
 }
 
 section {
+    background-color: black;
     height: 100%;
+    color: white;
 }
 
 h1, h2, h3 {
@@ -24,24 +28,22 @@ img {
 #EcranJeu {
     position: relative;
     float: left;
-    width: 80%;
+    width: 70%;
     height: 100%;
-    background-color: black;
-    color: white;
 }
 
 #EcranFinDePartie {
     position: relative;
     float: right;
-    width: 20%;
+    width: 30%;
     height: 100%;
-    background-color: #005cbf;
 }
 
 #Premier {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    margin-top: 5%;
 }
 
 #Seconde {
@@ -70,4 +72,8 @@ img {
     top: 400px;
     font-size: 40px;
     left: 50px;
+}
+
+#Resultats, #ResteTemps, #NbrPaires, #NbrDeTentatives {
+    font-size: 30px;
 }
