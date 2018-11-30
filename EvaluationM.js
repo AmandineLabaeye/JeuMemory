@@ -431,6 +431,8 @@ function Timer() {
 
 */
 
+// TEST UNITAIRE
+/*
 let zero = function (x)
 {
 
@@ -452,3 +454,4 @@ let zero = function (x)
 
 export {zero}
 
+*/
