@@ -1,18 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-
-
-}
-
-body, html {
-    height: 100%;
-}
-
-section {
-    background-color: black;
-    height: 100%;
-    color: white;
 }
 
 h1, h2, h3 {
@@ -21,59 +9,82 @@ h1, h2, h3 {
 
 img {
     position: absolute;
-    width: 10%;
-    padding: 20px;
+    width: 6vw;
 }
 
-#EcranJeu {
+section {
     position: relative;
-    float: left;
-    width: 70%;
-    height: 100%;
-}
-
-#EcranFinDePartie {
-    position: relative;
-    float: right;
-    width: 30%;
-    height: 100%;
 }
 
 #Premier {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin-top: 5%;
 }
 
 #Seconde {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin-top: 13%;
+    margin-top: 10%;
 }
 
 #Troisieme {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin-top: 13%;
+    margin-top: 10%;
 }
 
 #Quatrieme {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin-top: 13%;
+    margin-top: 10%;
 }
 
 #Timer {
     position: relative;
-    top: 400px;
-    font-size: 40px;
-    left: 50px;
+    top: 50vw;
+    font-size: 5vw;
+    left: 30vh;
 }
 
 #Resultats, #ResteTemps, #NbrPaires, #NbrDeTentatives {
-    font-size: 30px;
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 52.5vw) {
+    img {
+
+        width: 16vh;
+        padding: 6vh;
+
+    }
+
+    #Timer {
+        position: relative;
+        top: 50vw;
+        font-size: 5vw;
+        left: 30vh;
+    }
+
+    body {
+
+        width: 100%;
+
+        height: 100%;
+
+    }
+
+    h1, h2, h3 {
+
+        font-size: 2vh;
+
+    }
+
+    #Resultats, #ResteTemps, #NbrPaires, #NbrDeTentatives {
+        font-size: 2vh;
+    }
+
 }

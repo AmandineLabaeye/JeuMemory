@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b31a08a9-8dba-48c6-9544-d74a37ee8719" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EvaluationMTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EvaluationMspec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maquette/Projet Memory.bmpr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jasmine-3.3.0/boot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jasmine-3.3.0/jasmine-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jasmine-3.3.0/jasmine.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jasmine-3.3.0/jasmine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jasmine-3.3.0/jasmine_favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EvaluationM.css" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluationM.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EvaluationM.html" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluationM.html" afterDir="false" />
@@ -14,23 +22,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.65982026">
+    <splitter split-orientation="horizontal" split-proportion="0.36842105">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/EvaluationM.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="563">
-                  <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/EvaluationM.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-42">
-                  <caret line="16" column="85" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+                <state relative-caret-position="385">
+                  <caret line="442" column="16" selection-start-line="442" selection-start-column="16" selection-end-line="442" selection-end-column="16" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -39,11 +41,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/EvaluationM.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EvaluationMspec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="153" column="33" lean-forward="true" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
+                <state relative-caret-position="255">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/EvaluationMTest.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
                 </state>
               </provider>
             </entry>
@@ -69,13 +80,17 @@
       <list>
         <option value="$PROJECT_DIR$/EvaluationM.css" />
         <option value="$PROJECT_DIR$/EvaluationM.html" />
+        <option value="$PROJECT_DIR$/exercice1.spec.js" />
+        <option value="$PROJECT_DIR$/exercice.test.html" />
+        <option value="$PROJECT_DIR$/EvaluationMTest.html" />
         <option value="$PROJECT_DIR$/EvaluationM.js" />
+        <option value="$PROJECT_DIR$/EvaluationMspec.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="814" />
+    <option name="x" value="188" />
+    <option name="width" value="1419" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,10 +119,14 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrateur\Documents\GitHub\untitled16" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrateur\Documents\GitHub\untitled16\Maquette" />
       <recent name="C:\Users\Administrateur\Documents\GitHub\untitled16" />
       <recent name="C:\Users\Administrateur\Documents\GitHub\untitled16\Icons" />
     </key>
@@ -136,7 +155,10 @@
       <updated>1543222757780</updated>
       <workItem from="1543222759296" duration="18188000" />
       <workItem from="1543306455142" duration="21602000" />
-      <workItem from="1543392830657" duration="8719000" />
+      <workItem from="1543392830657" duration="17456000" />
+      <workItem from="1543417917503" duration="2377000" />
+      <workItem from="1543479174172" duration="16260000" />
+      <workItem from="1543565324605" duration="10899000" />
     </task>
     <task id="LOCAL-00001" summary="Il reste le timer, afficher le resultat et bouton démarrer">
       <created>1543332841214</created>
@@ -145,11 +167,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543332841214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reste : &#10;&#10;Bouton Reset pour redemarrer le jeu &#10;&#10;Bouton ou Popup pour démarrer le jeu&#10;&#10;Et commentaire en anglais">
+      <created>1543402616972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543402616972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48509000" />
+    <option name="totallyTimeSpent" value="86782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -162,14 +191,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.1084724" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14569962" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24967907" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -179,7 +207,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3297587" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32916668" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Remote Host" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -192,30 +220,57 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Il reste le timer, afficher le resultat et bouton démarrer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Il reste le timer, afficher le resultat et bouton démarrer" />
+    <MESSAGE value="Reste : &#10;&#10;Bouton Reset pour redemarrer le jeu &#10;&#10;Bouton ou Popup pour démarrer le jeu&#10;&#10;Et commentaire en anglais" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reste : &#10;&#10;Bouton Reset pour redemarrer le jeu &#10;&#10;Bouton ou Popup pour démarrer le jeu&#10;&#10;Et commentaire en anglais" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Icons/404.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationM.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercice1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jasmine-3.3.0/boot.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationM.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="153" column="33" lean-forward="true" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
+        <state relative-caret-position="280">
+          <caret line="196" column="42" lean-forward="true" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationM.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="16" column="85" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+        <state relative-caret-position="385">
+          <caret line="442" column="16" selection-start-line="442" selection-start-column="16" selection-end-line="442" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationMspec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationMTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
