@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b31a08a9-8dba-48c6-9544-d74a37ee8719" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/EvaluationM.js" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluationM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EvaluationMTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluationMTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EvaluationMspec.js" beforeDir="false" afterPath="$PROJECT_DIR$/EvaluationMspec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maquette/Projet Memory.bmpr" beforeDir="false" afterPath="$PROJECT_DIR$/Maquette + Diagramme fonctionnel/Projet Memory.bmpr" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +34,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/EvaluationM.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="782">
+                <state relative-caret-position="2312">
                   <caret line="196" column="42" lean-forward="true" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
                 </state>
               </provider>
@@ -140,7 +139,7 @@
       <workItem from="1543392830657" duration="17456000" />
       <workItem from="1543417917503" duration="2377000" />
       <workItem from="1543479174172" duration="16260000" />
-      <workItem from="1543565324605" duration="11280000" />
+      <workItem from="1543565324605" duration="12103000" />
     </task>
     <task id="LOCAL-00001" summary="Il reste le timer, afficher le resultat et bouton démarrer">
       <created>1543332841214</created>
@@ -160,7 +159,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87163000" />
+    <option name="totallyTimeSpent" value="87986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -173,7 +172,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14569962" />
@@ -228,7 +226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationM.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="2312">
           <caret line="196" column="42" lean-forward="true" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
         </state>
       </provider>
