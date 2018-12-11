@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b31a08a9-8dba-48c6-9544-d74a37ee8719" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maquette/Projet Memory.bmpr" beforeDir="false" afterPath="$PROJECT_DIR$/Maquette + Diagramme fonctionnel/Projet Memory.bmpr" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,37 +11,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36842105">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/EvaluationM.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="178">
-                  <caret line="432" lean-forward="true" selection-start-line="432" selection-end-line="432" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/EvaluationM.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2312">
-                  <caret line="196" column="42" lean-forward="true" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EvaluationM.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EvaluationM.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10281">
+              <caret line="448" column="20" selection-start-line="448" selection-start-column="20" selection-end-line="448" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,9 +61,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="188" />
-    <option name="width" value="1419" />
-    <option name="height" value="867" />
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,7 +131,11 @@
       <workItem from="1543392830657" duration="17456000" />
       <workItem from="1543417917503" duration="2377000" />
       <workItem from="1543479174172" duration="16260000" />
-      <workItem from="1543565324605" duration="12103000" />
+      <workItem from="1543565324605" duration="14441000" />
+      <workItem from="1543824752196" duration="803000" />
+      <workItem from="1543825798582" duration="210000" />
+      <workItem from="1544085675606" duration="1370000" />
+      <workItem from="1544435365136" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="Il reste le timer, afficher le resultat et bouton démarrer">
       <created>1543332841214</created>
@@ -159,7 +155,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87986000" />
+    <option name="totallyTimeSpent" value="92894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -172,9 +168,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14569962" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.11681643" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.24967907" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -188,7 +185,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3297587" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32916668" />
+      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32916668" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Remote Host" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -218,18 +215,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercice1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice1.js" />
     <entry file="file://$PROJECT_DIR$/lib/jasmine-3.3.0/boot.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="196" column="42" lean-forward="true" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationMspec.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -248,10 +236,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationM.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="432" lean-forward="true" selection-start-line="432" selection-end-line="432" />
+        <state relative-caret-position="10281">
+          <caret line="448" column="20" selection-start-line="448" selection-start-column="20" selection-end-line="448" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
